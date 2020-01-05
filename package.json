@@ -4,7 +4,7 @@
   "description": "Employee based team profiles",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
   "repository": {
     "type": "git",
@@ -19,6 +19,7 @@
   "dependencies": {
     "cheerio": "^1.0.0-rc.3",
     "inquirer": "^7.0.1",
+    "jest": "^24.9.0",
     "open": "^7.0.0"
   }
 }
